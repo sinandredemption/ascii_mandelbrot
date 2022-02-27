@@ -143,7 +143,7 @@ int main(int argc, char **argv) {
     attron(A_BOLD);
     printw("[ ]");
     attroff(A_BOLD);
-    printw(" to increase/decrease contrast\n");
+    printw(" to decrease/increase contrast\n");
 
     attron(A_BOLD);
     printw("q");
@@ -184,9 +184,9 @@ int main(int argc, char **argv) {
         xhalfrange -= 2 * xhalfrange / x_res;
       else if (ch == KEY_DOWN || ch == '-') // ZOOM OUT
         xhalfrange += 2 * xhalfrange / x_res;
-      else if (std::tolower(ch) == '[') // Increase number of iterations
+      else if (std::tolower(ch) == ']') // Increase number of iterations
         MaxIter *= 1.1;
-      else if (std::tolower(ch) == ']') // Decrease number of iterations
+      else if (std::tolower(ch) == '[') // Decrease number of iterations
         MaxIter /= 1.1;
       else if (std::tolower(ch) == 'q') // Exit
         break;
