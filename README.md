@@ -1,4 +1,4 @@
-# ASCII Mandelrot
+# ASCII Mandelbrot
 Navigate through [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) right in the terminal
 ![](Screenshot.png)
 
@@ -12,7 +12,7 @@ Navigate through [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) 
 
 **Arrow keys** to zoom in/out
 
-**[ ]** to increase/decrease contrast
+**[ ]** to decrease/increase contrast
 
 
 ### TODOs
