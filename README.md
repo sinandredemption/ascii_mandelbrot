@@ -1,5 +1,6 @@
 # ASCII Mandelrot
 Navigate through Mandelbrot set right in the terminal
+![](Screenshot.png)
 
 ### Installation
 `$ make`
