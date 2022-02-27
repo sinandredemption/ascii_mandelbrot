@@ -3,6 +3,7 @@ Navigate through Mandelbrot set right in the terminal
 
 ### Installation
 `$ make`
+
 `$ ./mandelbrot`
 
 ### Usage
