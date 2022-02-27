@@ -2,7 +2,8 @@
 Navigate through Mandelbrot set right in the terminal
 
 ### Installation
-`g++ -lncurses -O3 -DNDEBUG main.cpp`
+`$ make`
+`$ ./mandelbrot`
 
 ### Usage
 **w/a/s/d** to navigate
