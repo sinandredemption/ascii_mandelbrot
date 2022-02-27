@@ -1,5 +1,5 @@
 # ASCII Mandelrot
-Navigate through Mandelbrot set right in the terminal
+Navigate through [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) right in the terminal
 ![](Screenshot.png)
 
 ### Installation
@@ -20,4 +20,3 @@ Navigate through Mandelbrot set right in the terminal
 - More efficient inner loop
 - Support for multibrot set
 - Command-line interface
-- Makefile
